@@ -1,0 +1,41 @@
+name: Bug report
+description: Something in Samurai Scribe does not work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This issue will be public and permanent.** If the problem involves a
+        real meeting, a recording, your licence key, or anything confidential,
+        please email `support@samuraiscribe.com` instead — it is private, needs
+        no GitHub account, and the app can attach your logs for you from
+        Settings → Support → "Report a problem".
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, and what the app did instead.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Settings → About, or the title of the update you installed.
+      placeholder: "0.55.3"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Anything that reproduces it?
+      description: Optional. Even "only on long meetings" helps.

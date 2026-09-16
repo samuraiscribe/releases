@@ -1,0 +1,22 @@
+name: Feature request
+description: Something you want Samurai Scribe to do.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a new one, please check whether it is already here and
+        add a 👍 — that is how we decide what to build next.
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like it to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What are you trying to get done?
+      description: >-
+        The underlying task, not just the feature. It often turns out there is
+        a better answer than the one either of us first thought of.

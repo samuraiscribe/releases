@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Email support (recommended — no GitHub account needed)
+    url: https://samuraiscribe.com/#faq
+    about: >-
+      Anything involving your meetings, recordings, licence or a crash:
+      email support@samuraiscribe.com instead. Issues here are public and
+      permanent. In the app, Settings → Support → "Report a problem" attaches
+      your logs for you.
