@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest a feature. Others vote on it with 👍.
+labels: [vote]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search the open requests first — if yours is there, give it a 👍 instead of opening a new one.
+        Bugs and help go to [Discord](https://discord.com/invite/wwVBmNEuzZ) or support@samuraiscribe.com.
+  - type: input
+    id: feature
+    attributes:
+      label: The feature
+      placeholder: e.g. Linux support
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would you use it for?
+    validations:
+      required: true

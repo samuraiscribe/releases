@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a bug or get help (Discord)
+    url: https://discord.com/invite/wwVBmNEuzZ
+    about: The fastest way to get help, and where bugs are tracked.
+  - name: Report a bug or get help (email)
+    url: mailto:support@samuraiscribe.com
+    about: In the app, Settings → Support → Report a problem saves a troubleshooting bundle to attach.
